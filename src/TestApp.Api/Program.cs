@@ -1,11 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using NetBoilerplate.Application.Interfaces;
-using NetBoilerplate.Application.Services;
-using NetBoilerplate.Application.Validation;
-using NetBoilerplate.Domain.Interfaces;
-using NetBoilerplate.Infrastructure.Data;
-using NetBoilerplate.Infrastructure.Repositories;
+using TestApp.Application.Interfaces;
+using TestApp.Application.Services;
+using TestApp.Application.Validation;
+using TestApp.Domain.Interfaces;
+using TestApp.Infrastructure.Data;
+using TestApp.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,7 +21,7 @@ builder.Services.AddSwaggerGen();
 
 // Add DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseInMemoryDatabase("NetBoilerplateDb"));
+    options.UseInMemoryDatabase("TestAppDb"));
 
 // Register services
 builder.Services.AddScoped<IItemService, ItemService>();

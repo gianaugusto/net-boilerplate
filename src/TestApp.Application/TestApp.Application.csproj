@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 <ItemGroup>
-    <ProjectReference Include="..\NetBoilerplate.Domain\NetBoilerplate.Domain.csproj" />
+    <ProjectReference Include="..\TestApp.Domain\TestApp.Domain.csproj" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
     <PackageReference Include="FluentValidation" Version="11.5.1" />
   </ItemGroup>

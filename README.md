@@ -58,3 +58,25 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## License
 
 This project is licensed under the MIT License.
+
+## Renaming the Application
+
+To rename the application from `NetBoilerplate` to a new name, use the provided Bash script `Rename-NetBoilerplate.sh`. This script will rename all occurrences of `NetBoilerplate` in folder names, file names, and within the code.
+
+### Usage
+
+1. Ensure you have Bash installed on your system.
+2. Run the script with the new application name as a parameter:
+   ```bash
+   bash Rename-NetBoilerplate.sh <NewName>
+   ```
+   Replace `<NewName>` with the desired new application name.
+
+### Example
+
+To rename the application to `MyApp`, run:
+   ```bash
+   bash Rename-NetBoilerplate.sh MyApp
+   ```
+
+This will update all instances of `NetBoilerplate` to `MyApp` throughout the project.

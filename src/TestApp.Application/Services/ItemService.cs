@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using NetBoilerplate.Domain.Entities;
-using NetBoilerplate.Domain.Interfaces;
-using NetBoilerplate.Application.Interfaces;
+using TestApp.Domain.Entities;
+using TestApp.Domain.Interfaces;
+using TestApp.Application.Interfaces;
 
-namespace NetBoilerplate.Application.Services
+namespace TestApp.Application.Services
 {
     public class ItemService : IItemService
     {

@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using NetBoilerplate.Domain.Entities;
+using TestApp.Domain.Entities;
 
-namespace NetBoilerplate.Domain.Interfaces
+namespace TestApp.Application.Interfaces
 {
-    public interface IItemRepository
+    public interface IItemService
     {
         Task<IEnumerable<Item>> GetAllAsync();
         Task<Item> GetByIdAsync(Guid id);

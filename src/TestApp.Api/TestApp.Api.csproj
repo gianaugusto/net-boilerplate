@@ -12,9 +12,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0" />
-    <ProjectReference Include="..\NetBoilerplate.Application\NetBoilerplate.Application.csproj" />
-    <ProjectReference Include="..\NetBoilerplate.Infrastructure\NetBoilerplate.Infrastructure.csproj" />
-    <ProjectReference Include="..\NetBoilerplate.Application\NetBoilerplate.Application.csproj" />
+    <ProjectReference Include="..\TestApp.Application\TestApp.Application.csproj" />
+    <ProjectReference Include="..\TestApp.Infrastructure\TestApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\TestApp.Application\TestApp.Application.csproj" />
 
   </ItemGroup>
 

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using NetBoilerplate.Domain.Entities;
+using TestApp.Domain.Entities;
 
-namespace NetBoilerplate.Infrastructure.Data
+namespace TestApp.Infrastructure.Data
 {
     public class ApplicationDbContext : DbContext
     {

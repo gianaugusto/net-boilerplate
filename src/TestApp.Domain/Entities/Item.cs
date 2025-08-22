@@ -1,6 +1,6 @@
 using System;
 
-namespace NetBoilerplate.Domain.Entities
+namespace TestApp.Domain.Entities
 {
     public class Item
     {

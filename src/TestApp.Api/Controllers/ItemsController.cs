@@ -1,13 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
-using NetBoilerplate.Application.Interfaces;
-using NetBoilerplate.Application.Services;
-using NetBoilerplate.Application.Validation;
-using NetBoilerplate.Domain.Entities;
+using TestApp.Application.Interfaces;
+using TestApp.Application.Services;
+using TestApp.Application.Validation;
+using TestApp.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace NetBoilerplate.Api.Controllers
+namespace TestApp.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

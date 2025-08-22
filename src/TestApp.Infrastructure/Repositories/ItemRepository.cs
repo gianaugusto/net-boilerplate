@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using NetBoilerplate.Domain.Entities;
-using NetBoilerplate.Domain.Interfaces;
-using NetBoilerplate.Infrastructure.Data;
+using TestApp.Domain.Entities;
+using TestApp.Domain.Interfaces;
+using TestApp.Infrastructure.Data;
 
-namespace NetBoilerplate.Infrastructure.Repositories
+namespace TestApp.Infrastructure.Repositories
 {
     public class ItemRepository : IItemRepository
     {

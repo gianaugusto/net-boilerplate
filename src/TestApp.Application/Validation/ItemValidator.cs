@@ -1,7 +1,7 @@
 using FluentValidation;
-using NetBoilerplate.Domain.Entities;
+using TestApp.Domain.Entities;
 
-namespace NetBoilerplate.Application.Validation
+namespace TestApp.Application.Validation
 {
     public class ItemValidator : AbstractValidator<Item>
     {

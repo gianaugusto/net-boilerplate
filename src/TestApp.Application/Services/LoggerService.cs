@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace NetBoilerplate.Application.Services
+namespace TestApp.Application.Services
 {
     public class LoggerService
     {
